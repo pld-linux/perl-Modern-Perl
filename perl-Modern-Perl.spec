@@ -6,14 +6,14 @@
 %define		pnam	Perl
 %include	/usr/lib/rpm/macros.perl
 Summary:	Modern::Perl - enable all of the features of Modern Perl with one command
-#Summary(pl.UTF-8):	
+#Summary(pl.UTF-8):
 Name:		perl-Modern-Perl
 Version:	1.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/C/CH/CHROMATIC/Modern-Perl-1.03.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/C/CH/CHROMATIC/Modern-Perl-%{version}.tar.gz
 # Source0-md5:	1338c29f86b109280f8c723ece49299e
 URL:		http://search.cpan.org/dist/Modern-Perl/
 BuildRequires:	perl-Module-Build
@@ -27,8 +27,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 
 
-# %description -l pl.UTF-8
-# TODO
+# %description -l pl.UTF-8 # TODO
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
