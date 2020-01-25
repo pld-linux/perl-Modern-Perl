@@ -4,7 +4,6 @@
 #
 %define		pdir	Modern
 %define		pnam	Perl
-%include	/usr/lib/rpm/macros.perl
 Summary:	Modern::Perl - enable all of the features of Modern Perl with one command
 #Summary(pl.UTF-8):
 Name:		perl-Modern-Perl
